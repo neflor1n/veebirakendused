@@ -27,7 +27,8 @@ nav ul {
 	overflow: hidden; /*kuidas näidata nav elemendid*/
 	background-color: gray;
 	width: 50%;
-	border: solid 3pt; /*piir - solid, dotted, double, dashed*/
+	border-width: 3pt;
+	border-style: solid; /*piir - solid, dotted, double, dashed*/
 	border-image: linear-gradient(to right, darkgreen, yellow, darkred) 1;
 	margin: 8px;
 }
